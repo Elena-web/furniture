@@ -1,0 +1,53 @@
+.contact__us {
+    display: flex;
+    align-items: center;    
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact__us p {
+    display: flex;
+    align-items: center;    
+    gap: 5px;
+    font-size: .8rem;
+    color: $text-dark;
+    cursor: pointer;
+}
+
+.contact__us i {
+    font-size: 1rem;
+}
+
+header {
+    min-height: 30rem;
+    background-image: url(../../img/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__container {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: $text-dark;
+}
+
+.header__container button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    background-color: $primary-color;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.header__container button:hover {
+    background-color: $primary-color-dark;
+} 
+

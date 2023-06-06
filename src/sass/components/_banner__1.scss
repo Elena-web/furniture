@@ -1,0 +1,28 @@
+.banner__1 {
+    background-color: $text-light;
+}
+
+.banner__1__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    @include media-tablet {
+        gap: 3rem;
+    }
+}
+
+.banner__1__container .icon {
+    display: grid;
+    gap: .5rem;
+    text-align: center;
+    color: $text-dark;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.banner__1__container img {
+    width: 40px;
+    margin: auto;
+}

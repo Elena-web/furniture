@@ -1,0 +1,49 @@
+footer {
+    background-color: $text-light;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    color: $text-dark;
+    @include media-mobile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.footer__col img {
+    max-width: 150px;
+    margin-bottom: 2rem;
+}
+
+.footer__col i {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.footer__col h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer__col p {
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.footer__col p:hover {
+    color: $primary-color;
+}
+
+.footer__bar {
+    padding: .5rem;
+    font-size: .8rem;
+    text-align: center;
+    color: $white;
+    background-color: $primary-color;
+}

@@ -1,0 +1,34 @@
+.arrivals__nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    color: $text-dark;
+}
+
+.arrivals__nav span {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.arrivals__nav span:hover {
+    color: $primary-color;
+}
+
+.arrivals__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    @include media-tablet {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+.arrivals__image,
+.product__image {
+    display: flex;
+} 
+
+.arrivals__image:first-child {
+    grid-area: 1/1/2/3;
+}
