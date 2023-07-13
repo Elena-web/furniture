@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: 1770px;
+}
+
 .section__container {
     max-width: $max-width;
     margin: auto;
